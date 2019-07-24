@@ -16,7 +16,7 @@ export class HomePage {
       // resp.coords.latitude
       // resp.coords.longitude
 
-      this.data = "Lat:"+ resp.coords.latitude+<br>+ "Lng" + resp.coords.longitude
+      this.data = "Lat:"+ resp.coords.latitude+ "-----" +"Lng" + resp.coords.longitude
     }).catch((error) => {
       console.log('Error getting location', error);
     });
